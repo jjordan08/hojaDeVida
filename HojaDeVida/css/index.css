@@ -1,0 +1,117 @@
+body{
+    margin:  0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.name{
+    width: 100%;
+    height: 350px;
+    background-color: #1C7293;
+}
+
+.name .content{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    /*transform:skewY(5deg) ;*/
+    }
+
+.name .content .nombre{
+    color: antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    /*transform:skewY(-5deg) ;*/
+    margin-bottom: 0;
+}
+
+.name .content .apellido{
+    color: antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    /*transform:skewY(-5deg) ;*/
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.name .content .nivel_estudios{
+    color: antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 30px;
+    /*transform:skewY(/5deg) ;*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.name .img img {
+    width: 135px;
+    height: 200px;
+}
+
+.informacion{
+    width: 90%;
+    height: auto;
+    background-color:#1C7293;
+    margin:5% auto; /* espaciado exterior */
+    padding: 20px; /* espaciado interno superior e inferior */
+    border-radius: 20px;
+}
+
+.informacion .titulo_principal{
+    color:antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: xx-large; /*referencia de tamanos y no pixeles*/
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px antiquewhite solid ;
+}
+
+.informacion .titulo{
+    color:antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: large; /*referencia de tamanos y no pixeles*/
+    display:inline;
+    margin-right:20px;
+}
+
+.informacion .info_titulo{
+    color:black;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: large; /*referencia de tamanos y no pixeles*/
+    display: inline;
+}
+
+.version_documento{
+    width: 100%;
+    height: 100px;
+    background-color: #1C7293;
+}
+
+.version_documento .version{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    /*transform:skewY(5deg) ;*/
+    }
+
+.version_documento .version .fecha{
+    color: antiquewhite;
+    font-family: 'Baloo Tamma 2', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+}
